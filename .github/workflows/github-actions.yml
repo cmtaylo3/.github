@@ -19,4 +19,5 @@ jobs:
       - name: json-yaml-validate
         id: json-yaml-validate
         uses: GrantBirki/json-yaml-validate@v2.3.0
+          base_dir: 'src/'
       - run: echo "🍏 This job's status is ${{ job.status }}."
